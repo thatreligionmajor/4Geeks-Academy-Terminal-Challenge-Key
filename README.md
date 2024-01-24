@@ -21,14 +21,27 @@
 ## Step by Step Terminal Commands
 ### Start the Instructions
 ```console
-@yourgithubhandle ➜ /workspaces/your-repo-name-exercise-terminal-challenge (master) $ :~$ npm install
-@yourgithubhandle ➜ /workspaces/your-repo-name-exercise-terminal-challenge (master) $ :~$ npm run start
+your@githubhandle ➜ /workspaces/your-repo-name (master):~$ npm install
+your@githubhandle ➜ /workspaces/your-repo-name (master):~$ npm run start
 ```
 
 Leave that terminal running and create a new terminal using the plus button on the top right of your terminal window.
 
+### Get inside the thecmdchallenge/ directory
 ```console
-foo@bar:~$ makedir not-that-funny/
+your@githubhandle ➜ /workspaces/your-repo-name (master):~$ cd thecmdchallenge/
+your@githubhandle ➜ /workspaces/your-repo-name/thecmdchallenge (master) $ 
+```
+### Print current directory path
+```console
+your@githubhandle ➜ /workspaces/your-repo-name (master):~$ pwd
+/workspaces/your-repo-name/thecmdchallenge
+```
+
+### not-that-funny/
+
+```console
+your@githubhandle ➜ /workspaces/your-repo-name (master):~$ makedir not-that-funny/
 foo
 ```
 
