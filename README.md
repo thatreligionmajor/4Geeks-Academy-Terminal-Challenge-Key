@@ -57,9 +57,9 @@ your@githubhandle ➜ /workspaces/your-repo-name/thecmdchallenge (master):~$ cd 
 your@githubhandle ➜ /workspaces/your-repo-name/thecmdchallenge/funcode (master):~$ ls *.js
 ```
 ### Create a new directory inside funcode/the-most-funny/ called “not-that-funny“
-
 ```console
-your@githubhandle ➜ /workspaces/your-repo-name/thecmdchallenge (master):~$ makedir not-that-funny/
+your@githubhandle ➜ /workspaces/your-repo-name/thecmdchallenge (master):~$ cd the-most-funny
+your@githubhandle ➜ /workspaces/your-repo-name/thecmdchallenge/the-most-funny (master):~$ mkdir not-that-funny
 foo
 ```
 
