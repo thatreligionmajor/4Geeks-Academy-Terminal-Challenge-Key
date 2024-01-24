@@ -17,10 +17,12 @@
 ###
 ###
 ### 
+
+## Step by Step Terminal Commands
 ### Start the Instructions
 ```console
-foo@bar:~$ npm install
-foo@bar:~$ npm run start
+@yourgithubhandle ➜ /workspaces/your-repo-name-exercise-terminal-challenge (master) $ :~$ npm install
+@yourgithubhandle ➜ /workspaces/your-repo-name-exercise-terminal-challenge (master) $ :~$ npm run start
 ```
 
 Leave that terminal running and create a new terminal using the plus button on the top right of your terminal window.
