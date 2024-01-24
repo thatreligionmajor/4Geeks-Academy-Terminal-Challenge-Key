@@ -51,9 +51,12 @@ your@githubhandle ➜ /workspaces/your-repo-name/thecmdchallenge (master):~$ cle
 your@githubhandle ➜ /workspaces/your-repo-name/thecmdchallenge (master):~$ cat cat small-name/bigger-name-than-before/omg-this-folder-has-a-huuuuuuge-name-and-i-tired-to-type/this-is-probably-the-longest-folder-name-you-have-ever-seen-but-believe--im-sure-there-are-other-folder-bigger-than-this-one-because-people-sometimes-like-to-assign-huge-names-to-their-personal-stuff-supercalifragilisticexpialidocious/trophy.txt
 ```
 > **👋** Hint: Hit tab after typing / to autofill the full name of the path.
-###
-
-### not-that-funny/
+### Move one level up and get to the funcode directory and list all files with the JavaScript typical extension
+```console
+your@githubhandle ➜ /workspaces/your-repo-name/thecmdchallenge (master):~$ cd funcode/
+your@githubhandle ➜ /workspaces/your-repo-name/thecmdchallenge/funcode (master):~$ ls *.js
+```
+### Create a new directory inside funcode/the-most-funny/ called “not-that-funny“
 
 ```console
 your@githubhandle ➜ /workspaces/your-repo-name/thecmdchallenge (master):~$ makedir not-that-funny/
