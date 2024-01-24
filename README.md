@@ -14,9 +14,6 @@
 [rm] remove all the contents from the boringfolder, they are extremely boring
 
 ### 
-###
-###
-### 
 
 ## Step by Step Terminal Commands
 ### Start the Instructions
@@ -34,14 +31,32 @@ your@githubhandle ➜ /workspaces/your-repo-name/thecmdchallenge (master) $
 ```
 ### Print current directory path
 ```console
-your@githubhandle ➜ /workspaces/your-repo-name (master):~$ pwd
-/workspaces/your-repo-name/thecmdchallenge
+your@githubhandle ➜ /workspaces/your-repo-name/thecmdchallenge (master):~$ pwd
 ```
+### List all the files from the current directory including the hidden ones
+```console
+your@githubhandle ➜ /workspaces/your-repo-name/thecmdchallenge (master):~$ ls -a
+.  ..  boringfolder  console_master.md  funcode  kamehameha  small-name
+```
+### Now list all the files inside the project, recursively (all files in the hierarchy)
+```console
+your@githubhandle ➜ /workspaces/your-repo-name/thecmdchallenge (master):~$ ls -R
+```
+### Clear all the clutter from the command line
+```console
+your@githubhandle ➜ /workspaces/your-repo-name/thecmdchallenge (master):~$ clear
+```
+### Go to the last level below the small-name folder and show on the console the content of the trophy.txt file
+```console
+your@githubhandle ➜ /workspaces/your-repo-name/thecmdchallenge (master):~$ cat cat small-name/bigger-name-than-before/omg-this-folder-has-a-huuuuuuge-name-and-i-tired-to-type/this-is-probably-the-longest-folder-name-you-have-ever-seen-but-believe--im-sure-there-are-other-folder-bigger-than-this-one-because-people-sometimes-like-to-assign-huge-names-to-their-personal-stuff-supercalifragilisticexpialidocious/trophy.txt
+```
+> **👋** Hint: Hit tab after typing / to autofill the full name of the path.
+###
 
 ### not-that-funny/
 
 ```console
-your@githubhandle ➜ /workspaces/your-repo-name (master):~$ makedir not-that-funny/
+your@githubhandle ➜ /workspaces/your-repo-name/thecmdchallenge (master):~$ makedir not-that-funny/
 foo
 ```
 
