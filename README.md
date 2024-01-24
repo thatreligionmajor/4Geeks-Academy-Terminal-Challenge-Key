@@ -25,8 +25,10 @@ foo@bar:~$ npm run start
 
 Leave that terminal running and create a new terminal using the plus button on the top right of your terminal window.
 
-
-mkdir not-that-funny/
+```console
+foo@bar:~$ makedir not-that-funny/
+foo
+```
 
 ### Create a copy of the-mostboring-text.txt (you can find it within /boringfolder/'s children) and name it lol.txt
 ```console
