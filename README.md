@@ -1,17 +1,18 @@
-# WIP
 # 4Geeks-Academy-Terminal-Challenge-Key
 
+this readme.md file is to be used in conjunction with [4Geeks Academy](https://github.com/4GeeksAcademy)'s [exercise-terminal-challenge](https://github.com/breatheco-de/exercise-terminal-challenge) repo, but only when you're *really* stumped.
+
 ## General Command Hints
-[pwd] Print current directory path
-[ls -a] List all the files from the current directory including the hidden ones
-[ls -R] Now list all the files inside the workspace, recursively (all files in the hierarchy)
-[cd, cat] Go to the last level below the small-name folder and write in the console the content of the trophy.txt file
-[cd, ls] Move back to the root and List all files with the JavaScript typical extension
-[mkdir] create a new folder inside funcode/the-most-funny/ called "not-that-funny"
-[mv, cp] Create a copy of the last file you can find below the /boringfolder/ childs (the-mostboring-text.txt)
-[rmdir] remove the "remove-me" folder from the funcode directory
-[cd, cat] print in the screen the-ultimate-joke.txt
-[rm] remove all the contents from the boringfolder, they are extremely boring
+* `[pwd]` Print current directory path
+* `[ls -a]` List all the files from the current directory including the hidden ones
+* `[ls -R]` Now list all the files inside the workspace, recursively (all files in the hierarchy)
+* `[cd, cat]` Go to the last level below the small-name folder and write in the console the content of the trophy.txt file
+* `[cd, ls]` Move back to the root and List all files with the JavaScript typical extension
+* `[mkdir]` create a new folder inside `funcode/the-most-funny/` called "not-that-funny"
+* `[mv, cp]` Create a copy of the last file you can find below the /boringfolder/ childs (the-mostboring-text.txt)
+* `[rmdir]` remove the "remove-me" folder from the funcode directory
+* `[cd, cat]` print in the screen the-ultimate-joke.txt
+* `[rm]` remove all the contents from the boringfolder, they are extremely boring
 
 ### 
 
@@ -50,7 +51,7 @@ your@githubhandle ➜ /workspaces/your-repo-name/thecmdchallenge (master):~$ cle
 ```console
 your@githubhandle ➜ /workspaces/your-repo-name/thecmdchallenge (master):~$ cat small-name/bigger-name-than-before/omg-this-folder-has-a-huuuuuuge-name-and-i-tired-to-type/this-is-probably-the-longest-folder-name-you-have-ever-seen-but-believe--im-sure-there-are-other-folder-bigger-than-this-one-because-people-sometimes-like-to-assign-huge-names-to-their-personal-stuff-supercalifragilisticexpialidocious/trophy.txt
 ```
-> **👋** Hint: Hit tab after typing / to autofill the full name of the path.
+> **👋** Hint: Hit tab after typing '/' to autofill the full name of the path.
 ### 7. Move one level up and get to the funcode directory and list all files with the JavaScript typical extension
 ```console
 your@githubhandle ➜ /workspaces/your-repo-name/thecmdchallenge (master):~$ cd funcode/
@@ -86,14 +87,12 @@ your@githubhandle ➜ /workspaces/your-repo-name/thecmdchallenge (master):~$ rm 
 ```
 ### 14. Open the file kamehameha/dragon-ball-jokes.md using the VI command line text editor
 ```console 
-your@githubhandle ➜ /workspaces/your-repo-name/thecmdchallenge (master):~$ 
+your@githubhandle ➜ /workspaces/your-repo-name/thecmdchallenge (master):~$ vi kamehameha/dragon-ball-jokes.md
 ```
-
-
-
-### Example
+### 15. Update the file kamehameha/dragon-ball-jokes.md by removing the first joke you read on the file, finally save and close the text editor
 ```console
-your@githubhandle ➜ /workspaces/your-repo-name/thecmdchallenge/the-most-funny (master):~$ ../..
-your@githubhandle ➜ /workspaces/your-repo-name/thecmdchallenge (master):~$ cp the-mostboring-text.txt lol.txt
-foo
+1. In vi command mode, navigate to the line containing the first joke.
+2. Delete the line by positioning the cursor on it and typing 'dd'.
+3. Save and exit by typing 'Esc', then ':wq' and Enter.
 ```
+## The End 🎉
