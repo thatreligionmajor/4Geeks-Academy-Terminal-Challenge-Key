@@ -63,14 +63,23 @@ your@githubhandle ➜ /workspaces/your-repo-name/thecmdchallenge/the-most-funny 
 ```
 ### 9. Create a copy of the-mostboring-text.txt (you can find it within /boringfolder/‘s children) and name it lol.txt
 ```console
-your@githubhandle ➜ /workspaces/your-repo-name/thecmdchallenge (master):~$ cd the-most-funny
-your@githubhandle ➜ /workspaces/your-repo-name/thecmdchallenge/the-most-funny (master):~$ mkdir not-that-funny
+your@githubhandle ➜ /workspaces/your-repo-name/thecmdchallenge/the-most-funny (master):~$ ../..
+your@githubhandle ➜ /workspaces/your-repo-name/thecmdchallenge (master):~$ cp boringfolder/even-more-boring/i-cant-believe-how-boring/the-ultimate-boring-inception/the-mostboring-text.txt boringfolder/even-more-boring/i-cant-believe-how-boring/the-ultimate-boring-inception/lol.txt
+```
+### 10. Move funcode/kids.jpg inside funcode/images/hello/
+```console
+your@githubhandle ➜ /workspaces/your-repo-name/thecmdchallenge (master):~$ 
 foo
 ```
 
-### . Create a copy of the-mostboring-text.txt (you can find it within /boringfolder/'s children) and name it lol.txt
+
+
+
+
+
+### Example
 ```console
-foo@bar:~$ cp the-mostboring-text.txt lol.txt
+your@githubhandle ➜ /workspaces/your-repo-name/thecmdchallenge/the-most-funny (master):~$ ../..
+your@githubhandle ➜ /workspaces/your-repo-name/thecmdchallenge (master):~$ cp the-mostboring-text.txt lol.txt
 foo
 ```
-<!-- edit above command -->
