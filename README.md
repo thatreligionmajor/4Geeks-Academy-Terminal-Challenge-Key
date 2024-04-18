@@ -23,7 +23,7 @@ your@githubhandle ➜ /workspaces/your-repo-name (master):~$ npm install
 your@githubhandle ➜ /workspaces/your-repo-name (master):~$ npm run start
 ```
 
-Leave that terminal running and create a new terminal using the plus button on the top right of your terminal window.
+Leave that terminal running and create a new terminal using the plus button on the top right of your terminal window. This new terminal is where you will write all of your commands.
 
 ### 1. Get inside the thecmdchallenge/ directory
 ```console
